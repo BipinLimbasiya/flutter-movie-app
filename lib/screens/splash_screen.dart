@@ -2,7 +2,6 @@ import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:movies_flutter_app/screens/movie_list_page.dart';
 import 'package:movies_flutter_app/utils/constants.dart';
-import 'package:page_transition/page_transition.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -18,7 +17,6 @@ class _SplashScreenState extends State<SplashScreen> {
           splash: Image.asset("assets/images/launch_icon.jpg"),
           nextScreen: MovieListPage(),
           splashTransition: SplashTransition.fadeTransition,
-          pageTransitionType: PageTransitionType.scale,
           backgroundColor: kMainColor),
     );
   }
