@@ -10,7 +10,7 @@ class MovieDetailsService {
     var client = http.Client();
     var movieDetailsModel;
     var baseUrl =
-        'https://api.themoviedb.org/3/movie/$id?api_key=e71e2ce5db56fa0d6dd0965f7f07d326&language=en-US';
+        'https://api.themoviedb.org/3/movie/$id?api_key=apiKey&language=en-US';
     try {
       var res = await client.get(baseUrl);
 
