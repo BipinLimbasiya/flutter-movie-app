@@ -4,8 +4,8 @@ import 'package:movies_flutter_app/models/movie_list_model.dart';
 
 class MovieListService {
   var baseUrl =
-      'https://api.themoviedb.org/3/movie/top_rated?api_key=e71e2ce5db56fa0d6dd0965f7f07d326&language=en-US';
-  var apiKey = 'e71e2ce5db56fa0d6dd0965f7f07d326';
+      'https://api.themoviedb.org/3/movie/top_rated?api_key=apiKey&language=en-US';
+ 
 
   Future<MovieListModel> getData() async {
     var client = http.Client();
