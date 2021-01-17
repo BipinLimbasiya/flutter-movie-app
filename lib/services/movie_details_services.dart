@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import 'package:movies_flutter_app/models/movie_details_model.dart';
 
 class MovieDetailsService {
-  var apiKey = 'e71e2ce5db56fa0d6dd0965f7f07d326';
+  var apiKey = 'Your apiKey';
 
   Future<MovieDetailsModel> getData(id) async {
     print('id :: $id');
